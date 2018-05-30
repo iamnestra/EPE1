@@ -38,7 +38,11 @@ export class EquiposPage {
       {
         'title': 'Unión la Calera',
         'icon': 'ios-football',
-        'description': 'The latest version of the web\'s markup language.',
+        'img': 'assets/imgs/calera.jpg',
+        'description': 'AÑO FUNDACIÓN 26 de Enero 1954',
+        'description1': 'DIRECTOR TÉCNICO Víctor Rivero',
+        'description2': 'ESTADIO Nicolás Chahúan',
+        'description3': 'PRESIDENTE Gustavo Cerioni',
         'color': '#000'
       },
       {
