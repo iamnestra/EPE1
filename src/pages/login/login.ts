@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController} from 'ionic-angular';
 import {ToastController} from  'ionic-angular';
+import { UregisterPage } from '../uregister/uregister';
 /**
  * Generated class for the LoginPage page.
  *
@@ -28,7 +29,7 @@ export class LoginPage {
       if(this.user == "pablo" && this.pass == "123"){
       let user = this.user;
       let pass = this.pass;
-      this.navCtrl.push(LoginPage,{
+      this.navCtrl.push(UregisterPage,{
       usuario: user,
       clave: pass
       })

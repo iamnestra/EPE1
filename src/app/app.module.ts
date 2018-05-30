@@ -11,7 +11,7 @@ import { EquiposPage } from '../pages/equipos/equipos';
 import { AjustesPage } from '../pages/ajustes/ajustes';
 import { MasinfoPage } from '../pages/masinfo/masinfo';
 import { LoginPage } from '../pages/login/login';
-
+import { UregisterPage } from '../pages/uregister/uregister';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -26,7 +26,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EquiposPage,
     AjustesPage,
     MasinfoPage,
-    LoginPage
+    LoginPage,
+    UregisterPage
     
   ],
   imports: [
@@ -43,7 +44,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EquiposPage,
     AjustesPage,
     MasinfoPage,
-    LoginPage
+    LoginPage,
+    UregisterPage
     
   ],
   providers: [
