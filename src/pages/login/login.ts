@@ -37,8 +37,8 @@ export class LoginPage {
       else{
       let toast_bad = this.toastCtrl.create({
       message: 'DATOS INGRESADOS INCORRECTOS',
-      duration:4000,
-      position: 'middle'})
+      duration:2000,
+      position: 'top'})
       toast_bad.present();
       }
       }
