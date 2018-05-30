@@ -1,12 +1,17 @@
-page-contact {
+page-login {
 
     .login-content {
         background: #444444;
+
+        .logo-row {
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
      
         .login-box {
           background: #e9ecec;
           padding: 20px 20px 0px 20px;
-          margin-top: 30px;
+          margin-top: 20px;
         }
      
         ion-row {
@@ -39,6 +44,8 @@ page-contact {
            border-radius: 30px !important;
            border: 1px solid #ffffff;
          }
+
+         
       }
 
 }

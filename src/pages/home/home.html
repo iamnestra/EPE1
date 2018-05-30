@@ -1,17 +1,60 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
+  <ion-navbar color="primary">
+      <ion-buttons start>
+          <button ion-button icon-only (click)="iraLogin()">
+            <ion-icon name="contact"></ion-icon>
+          </button>
+        </ion-buttons>
+    <ion-title>FutLive Noticias</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+    <ion-card>
+        <ion-card-header>
+          PRÓXIMO PARTIDO
+        </ion-card-header>
+        <ion-card-content text-center>
+            <ion-img width="130" height="87" src="assets/imgs/foto4.png"></ion-img>
+        </ion-card-content>
+      </ion-card>
+
+    <ion-card>
+        <img src="../../assets/imgs/foto1.jpg"/>
+        <ion-card-content>
+          <ion-card-title>
+            CAMPEONATO SCOTIABANKS 2018
+            </ion-card-title>
+          <p>
+            La UC no pudo frente a Deportes Antofagasta
+            y la ventaja en la cima es minima.
+          </p>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+          <img src="../../assets/imgs/foto2.jpg"/>
+          <ion-card-content>
+            <ion-card-title>
+              SELECCIÓN CHILENA
+              </ion-card-title>
+            <p>
+              La Roja entrenó bajo una intensa lluvia
+              en Austria.
+            </p>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+            <img src="../../assets/imgs/foto3.jpg"/>
+            <ion-card-content>
+              <ion-card-title>
+                CITACIÓN
+                </ion-card-title>
+              <p>
+                Nómina de la Seleccion Chilena para los amistosos
+                ante Rumania, Servia y Polonia.
+              </p>
+            </ion-card-content>
+          </ion-card>
 </ion-content>

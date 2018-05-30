@@ -1,0 +1,23 @@
+
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Equipos Nacionales</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <ion-item text-center>
+    <ion-img width="165" height="60" src="assets/imgs/anfp.png"></ion-img>
+  </ion-item>
+    
+    <ion-list>
+        <button ion-item *ngFor="let item of equipos" (click)="openNavDetailsPage(item)" icon-start>
+          <ion-icon [name]="item.icon" [ngStyle]="{'color': item.color}" item-start></ion-icon>
+          {{ item.title }}
+        </button>
+      </ion-list>
+</ion-content>
