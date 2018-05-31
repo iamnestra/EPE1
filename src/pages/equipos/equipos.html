@@ -2,22 +2,88 @@
 <ion-header>
 
   <ion-navbar color="primary">
-    <ion-title>Equipos Nacionales</ion-title>
+    <ion-title>PRIMERA A</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content>
+//Cagolica
+  <ion-card>
 
-  <ion-item text-center>
-    <ion-img width="165" height="60" src="assets/imgs/anfp.png"></ion-img>
+  <ion-item>
+    <ion-avatar item-start>
+      <img src="assets/imgs/cato.jpg">
+    </ion-avatar>
+    <h2>Universidad Catolica</h2>
+    <p>19 de abril de 1937</p>
   </ion-item>
-    
-    <ion-list>
-        <button ion-item *ngFor="let item of equipos" (click)="openNavDetailsPage(item)" icon-start>
-          <ion-icon [name]="item.icon" [ngStyle]="{'color': item.color}" item-start></ion-icon>
-          {{ item.title }}
-        </button>
-      </ion-list>
+
+  <img src="assets/imgs/monja.jpeg">
+
+  <ion-card-content>
+<p>
+Entrenador: Beñat San José<br>
+Cancha/estadio: Estadio San Carlos de Apoquindo<br>
+(Transición 2017): 11°
+</p>
+  </ion-card-content>
+
+  <ion-row>
+    <ion-col>
+      <button ion-button icon-left clear small>
+        <ion-icon name="thumbs-up"></ion-icon>
+        <div>1 Likes</div>
+      </button>
+    </ion-col>
+
+    <ion-col center text-center>
+      <ion-note>
+
+      </ion-note>
+    </ion-col>
+  </ion-row>
+
+</ion-card>
+//Colo Colo
+<ion-card>
+
+<ion-item>
+  <ion-avatar item-start>
+    <img src="assets/imgs/colo.png">
+  </ion-avatar>
+  <h2>Colo Colo</h2>
+  <p>19 de abril de 1925</p>
+</ion-item>
+
+<img src="assets/imgs/campeones.jpg">
+
+<ion-card-content>
+<p>
+El Club Social y Deportivo Colo-Colo, más conocido como Colo-Colo, es una institución dedicada al fútbol profesional con base en la ciudad de Santiago, Chile.
+Entrenador: Héctor Tapia8​<br>
+Cancha/estadio: Estadio Monumental<br>
+(Transición 2017): Campeón
+</p>
+</ion-card-content>
+
+<ion-row>
+  <ion-col>
+    <button ion-button icon-left clear small>
+      <ion-icon name="thumbs-up"></ion-icon>
+      <div>1 Likes</div>
+    </button>
+  </ion-col>
+
+  <ion-col center text-center>
+    <ion-note>
+
+    </ion-note>
+  </ion-col>
+</ion-row>
+
+</ion-card>
+
+
 </ion-content>
