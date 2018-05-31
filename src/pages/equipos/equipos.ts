@@ -58,7 +58,11 @@ export class EquiposPage {
       {
         'title': 'Deportes Antofagasta',
         'icon': 'ios-football',
-        'description': 'Syntactically Awesome Stylesheets - a mature, stable, and powerful professional grade CSS extension.',
+        'img': 'assets/imgs/calera.jpg',
+        'description': 'AÑO FUNDACIÓN 24 de Mayo del 1927',
+        'description1': 'DIRECTOR TÉCNICO Esteban Valencia',
+        'description2': 'ESTADIO Nacional',
+        'description3': 'PRESIDENTE Carlos Heller Solari',
         'color': '#000'
       },
       {
