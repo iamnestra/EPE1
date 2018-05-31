@@ -48,13 +48,21 @@ export class EquiposPage {
       {
         'title': 'Universidad de Chile',
         'icon': 'ios-football',
-        'description': 'One of the most popular programming languages on the Web!',
+        'img': 'assets/imgs/calera.jpg',
+        'description': 'AÑO FUNDACIÓN 24 de Mayo del 1927',
+        'description1': 'DIRECTOR TÉCNICO Esteban Valencia',
+        'description2': 'ESTADIO Nacional',
+        'description3': 'PRESIDENTE Carlos Heller Solari',
         'color': '#000'
       },
       {
         'title': 'Deportes Antofagasta',
         'icon': 'ios-football',
-        'description': 'Syntactically Awesome Stylesheets - a mature, stable, and powerful professional grade CSS extension.',
+        'img': 'assets/imgs/calera.jpg',
+        'description': 'AÑO FUNDACIÓN 14 de Mayo 1966',
+        'description1': 'DIRECTOR TÉCNICO Gerardo Ameli',
+        'description2': 'ESTADIO Calvo y Bascuñán',
+        'description3': 'PRESIDENTE Jorge Sánchez Ilabaca',
         'color': '#000'
       },
       {
