@@ -48,7 +48,11 @@ export class EquiposPage {
       {
         'title': 'Universidad de Chile',
         'icon': 'ios-football',
-        'description': 'One of the most popular programming languages on the Web!',
+        'img': 'assets/imgs/calera.jpg',
+        'description': 'AÑO FUNDACIÓN 24 de Mayo del 1927',
+        'description1': 'DIRECTOR TÉCNICO Esteban Valencia',
+        'description2': 'ESTADIO Nacional',
+        'description3': 'PRESIDENTE Carlos Heller Solari',
         'color': '#000'
       },
       {
