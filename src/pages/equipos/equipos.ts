@@ -59,10 +59,10 @@ export class EquiposPage {
         'title': 'Deportes Antofagasta',
         'icon': 'ios-football',
         'img': 'assets/imgs/calera.jpg',
-        'description': 'AÑO FUNDACIÓN 24 de Mayo del 1927',
-        'description1': 'DIRECTOR TÉCNICO Esteban Valencia',
-        'description2': 'ESTADIO Nacional',
-        'description3': 'PRESIDENTE Carlos Heller Solari',
+        'description': 'AÑO FUNDACIÓN 14 de Mayo 1966',
+        'description1': 'DIRECTOR TÉCNICO Gerardo Ameli',
+        'description2': 'ESTADIO Calvo y Bascuñán',
+        'description3': 'PRESIDENTE Jorge Sánchez Ilabaca',
         'color': '#000'
       },
       {
