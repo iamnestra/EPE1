@@ -58,7 +58,7 @@ export class EquiposPage {
       {
         'title': 'Deportes Antofagasta',
         'icon': 'ios-football',
-        'img': 'assets/imgs/calera.jpg',
+        'img': 'assets/imgs/antofagasta.jpg',
         'description': 'AÑO FUNDACIÓN 14 de Mayo 1966',
         'description1': 'DIRECTOR TÉCNICO Gerardo Ameli',
         'description2': 'ESTADIO Calvo y Bascuñán',
@@ -68,13 +68,21 @@ export class EquiposPage {
       {
         'title': 'Colo Colo',
         'icon': 'ios-football',
-        'description': 'An open-source, cross-platform runtime environment for developing server-side Web applications.',
+        'img': 'assets/imgs/colo.jpg',
+        'description': 'AÑO FUNDACIÓN 19 de abril de 1925',
+        'description1': 'DIRECTOR TÉCNICO Héctor Tapia',
+        'description2': 'ESTADIO Monumental',
+        'description3': 'PRESIDENTE Gabriel Ruiz-Tagle',
         'color': '#000'
       },
       {
         'title': 'Unión Española',
         'icon': 'ios-football',
-        'description': 'A clear and powerful object-oriented programming language!',
+        'img': 'assets/imgs/ues.jpg',
+        'description': 'AÑO FUNDACIÓN 18 de Mayo 1897',
+        'description1': 'DIRECTOR TÉCNICO Martín Palermo',
+        'description2': 'ESTADIOS anta Laura - U. Sek',
+        'description3': 'PRESIDENTE Francisco Ceresuela Muñoz',
         'color': '#000'
       },
       {
