@@ -9,5 +9,42 @@
 
 
 <ion-content padding>
+  <ion-list radio-group>
+    <ion-list-header>
+      Language - Lenguaje
+    </ion-list-header>
+  
+    <ion-item>
+      <ion-label>Español</ion-label>
+      <ion-radio checked="true" value="go"></ion-radio>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Ingles</ion-label>
+      <ion-radio value="rust"></ion-radio>
+    </ion-item>
+  
+    <ion-range [(ngModel)]="brightness">
+      <ion-icon range-left small name="sunny"></ion-icon>
+      <ion-icon range-right name="sunny"></ion-icon>
+    </ion-range>
+
+    <ion-item>
+      <ion-label>Notificaciones</ion-label>
+      <ion-select [(ngModel)]="gaming">
+        <ion-option value="on">Encendidas</ion-option>
+        <ion-option value="off">Apagadas</ion-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <ion-item>
+    <ion-label>Habilitar conf. verano</ion-label>
+    <ion-checkbox color="dark" checked="false"></ion-checkbox>
+  </ion-item>
+  <ion-item>  
+    <ion-label>Habilitar conf. invierno</ion-label>
+    <ion-checkbox color="dark" checked="false"></ion-checkbox>
+  </ion-item>
 
 </ion-content>

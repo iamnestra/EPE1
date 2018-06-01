@@ -7,8 +7,9 @@ import { LoginPage } from '../login/login';
   selector: 'page-home',
   templateUrl: 'home.html'
 })
-export class HomePage {
 
+export class HomePage {
+  segundaPage = "SegundaPage";
   constructor(public navCtrl: NavController) {
 
   }
