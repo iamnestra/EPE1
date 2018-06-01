@@ -28,6 +28,13 @@
       <ion-icon range-left small name="sunny"></ion-icon>
       <ion-icon range-right name="sunny"></ion-icon>
     </ion-range>
-    
+
+    <ion-item>
+      <ion-label>Notificaciones</ion-label>
+      <ion-select [(ngModel)]="gaming">
+        <ion-option value="on">Encendidas</ion-option>
+        <ion-option value="off">Apagadas</ion-option>
+      </ion-select>
+    </ion-item>
   </ion-list>
 </ion-content>
